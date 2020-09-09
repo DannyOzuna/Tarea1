@@ -7,8 +7,9 @@ namespace Tarea_1
         static void Main(string[] args)
         {
             ContenedorPrincipal cp = new ContenedorPrincipal();
+            Console.Clear();
             Console.WriteLine("*------Bienvenido al Sistema Bancario------*");
-            Console.WriteLine("Presione una tecla...");
+            Console.WriteLine("\n\n\nPresione una tecla...");
             Console.ReadKey();
             cp.MenuPrincipal();
         }
