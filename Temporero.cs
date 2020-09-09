@@ -4,20 +4,14 @@ namespace Tarea_1
     class Temporero:Empleado
     {
         private static Temporero temporero = null;
-        private Temporero(/*string tipoEmpleado, string nombre, double precioHora, string metodoPago, int horaTrabajo, double salario*/){
-            /*TipoEmpleado = TipoEmpleado;
-            Nombre = nombre;
-            PrecioHora = precioHora;
-            MetodoPago = metodoPago;
-            HoraTrabajo = horaTrabajo;
-            Salario = salario;*/
+        private Temporero(){
         }
 
-        public static Temporero GetTemporero(/*string tipoEmpleado, string nombre, double precioHora, string metodoPago, int horaTrabajo, double salario*/)
+        public static Temporero GetTemporero()
         {
             if(temporero == null)
             {
-                temporero = new Temporero(/*tipoEmpleado, nombre, precioHora, metodoPago, horaTrabajo, salario*/);
+                temporero = new Temporero();
                 return temporero;
             }
             return temporero;
