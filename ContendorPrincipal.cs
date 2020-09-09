@@ -172,6 +172,12 @@ namespace Tarea_1
                         Console.ReadKey();
                         MenuRegistro();
                         break;
+                    case 3:
+                        Console.Clear();
+                        Console.WriteLine("*------Sistema Bancario------*\n");
+                        Temporero.GetTemporero();
+
+                        break;
                     case 4:
                         Console.Clear();
                         MenuRegistro();
