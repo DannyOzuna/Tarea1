@@ -8,24 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/home/danny/.nuget/packages/": {}
+    "C:\\Users\\danny\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danny/Documents/Programación II/Tarea 1/Tarea 1.csproj",
+      "projectUniqueName": "C:\\Users\\danny\\Desktop\\Tarea1\\Tarea 1.csproj",
       "projectName": "Tarea 1",
-      "projectPath": "/home/danny/Documents/Programación II/Tarea 1/Tarea 1.csproj",
-      "packagesPath": "/home/danny/.nuget/packages/",
-      "outputPath": "/home/danny/Documents/Programación II/Tarea 1/obj/",
+      "projectPath": "C:\\Users\\danny\\Desktop\\Tarea1\\Tarea 1.csproj",
+      "packagesPath": "C:\\Users\\danny\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danny\\Desktop\\Tarea1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/danny/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -56,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
