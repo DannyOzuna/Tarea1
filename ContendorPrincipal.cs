@@ -110,7 +110,7 @@ namespace Tarea_1
                             case "Add":
                                 Console.Clear();
                                 Console.WriteLine("*------Sistema Bancario------*\n");
-                                empleadoTiempoC = new TiempoCompleto();
+                                empleadoTiempoC = new TiempoCompleto("Tiempo Completo", "Lisandro Ozuna", 46846,100, "Este empleado cobra por cuenta bancaria",8);
                                 empleadoTiempoC.TipoEmpleado = "Tiempo Completo";
                                 empleadoTiempoC.MetodoPago = "Este empleado cobra por cuenta bancaria";
                                 empleadoTiempoC.HoraTrabajo = 8;
@@ -174,7 +174,7 @@ namespace Tarea_1
                             case "Add":
                                 Console.Clear();
                                 Console.WriteLine("*------Sistema Bancario------*\n");
-                                empleadoMedioT = new MedioTiempo();
+                                empleadoMedioT = new MedioTiempo("Medio Tiempo", "Lisandro Ozuna", 46846,100, "Este empleado cobra por cuenta bancaria",4);
                                 empleadoMedioT.TipoEmpleado = "Medio Tiempo";
                                 empleadoMedioT.MetodoPago = "Este empleado cobra por cuenta bancaria";
                                 empleadoMedioT.HoraTrabajo = 4;
@@ -250,7 +250,7 @@ namespace Tarea_1
                                 {
                                     Console.Clear();
                                     Console.WriteLine("*------Sistema Bancario------*\n");
-                                    Temporero temporero = Temporero.GetTemporero();
+                                    Temporero temporero = Temporero.GetTemporero("Temporero", "Lisandro Ozuna", 46846,100, "Este empleado cobra por cheque",9);
                                     temporero.TipoEmpleado = "Temporero";
                                     temporero.MetodoPago = "Este empleado cobra por cheque";
                                     temporero.HoraTrabajo = 9;
@@ -377,7 +377,7 @@ namespace Tarea_1
                             case "Add":
                                 Console.Clear();
                                 Console.WriteLine("*------Sistema Bancario------*\n");
-                                ahorrantes = new Ahorrantes();
+                                ahorrantes = new Ahorrantes("Alejandro Ozuna", 456978, 100);
                                 Console.Write("Nombre: ");
                                 ahorrantes.Nombre = Console.ReadLine();
                                 Console.Write("Numero de Cuenta: ");
@@ -447,7 +447,7 @@ namespace Tarea_1
                                 {
                                     Console.Clear();
                                     Console.WriteLine("*------Sistema Bancario------*\n");
-                                    Inversionista inversionista = Inversionista.GetInversionista();
+                                    Inversionista inversionista = Inversionista.GetInversionista("Raquelina", 456878, 500, 100);
                                     Console.Write("Nombre: ");
                                     inversionista.Nombre = Console.ReadLine();
                                     Console.Write("Numero de Cuenta: ");
